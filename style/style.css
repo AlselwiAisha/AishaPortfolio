@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #e5e5e5;
+}
+
+.main_color {
+  color: #6070ff;
+}
+
+.h1Color {
+  color: #091e42;
+}
+
+.pColor {
+  color: #344563;
+}
+
+.white {
+  color: #fff;
+}
+
+.nav-header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 70px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 8%;
+  background-color: #fff;
+}
+
+.nav-bar {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar-links {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  text-decoration: inherit;
+  color: #091e42;
+}
+
+.navbar-links a {
+  text-decoration: inherit;
+}
+
+.logo {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.headline-icons {
+  margin: 5px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.icon {
+  margin: 5px;
+  cursor: pointer;
+}
+
+.social-media-icons {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+@media only screen and (min-width: 375px) {
+  .headline {
+    margin-top: 70px;
+    padding-bottom: 4rem;
+    border-bottom-left-radius: 5rem;
+    background-image: url(../Images/headerShapesMobile.png), url(../Images/headerBackgroundMobile@2x.png);
+    background-size: cover;
+  }
+
+  .headline-bord {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    margin-top: 30%;
+  }
+
+  .headline-h1 {
+    width: 300px;
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .headline-p {
+    margin: 2%;
+    font-size: 16px;
+  }
+
+  .headline-connect {
+    margin: 10px;
+    font-size: 16px;
+  }
+
+  .navbar-links {
+    display: none;
+  }
+
+  #menu-icon {
+    font-size: 25px;
+    z-index: 1;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .headline {
+    width: 100%;
+    height: 100vh;
+    margin-top: 70px;
+    background-image: url(../Images/Headerbg.png), url(../Images/headerBackgroun.png);
+  }
+
+  .headline-p {
+    margin: 5%;
+    font-size: 20px;
+  }
+
+  .headline-connect {
+    font-size: 20px;
+  }
+
+  .navbar {
+    display: flex;
+  }
+
+  #menu-icon {
+    display: none;
+  }
+}
