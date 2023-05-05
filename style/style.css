@@ -135,7 +135,7 @@ a {
 
 .facebook ul {
   display: flex;
-  color: #6b778c;
+  color: #7a869a;
   font-size: 18px;
   justify-content: space-between;
 }
@@ -330,6 +330,7 @@ a {
   .facebook ul {
     font-size: 13px;
     font-weight: 600;
+
   }
 
   .facebook li {
