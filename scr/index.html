@@ -193,23 +193,20 @@ discover and enjoy 360 photos and videos on Gear VR.</p>
 </ul>
 </section>
 <section class="contact-me">
-  <h2 class="contact-me-title"> Contact me</h2>
-  <p>If you have an application you are interested in developing, 
+  <h2 class="contact-me-title white"> Contact me</h2>
+  <p class="contact-me-summary white">If you have an application you are interested in developing, 
     a feature that you need built or a project that needs coding. 
     I’d love to help with it!</p>
     <form
   action="https://formspree.io/f/xayzvgzv"
   method="POST"
 >
-  
-    <input type="text" name="name">
-    <input type="email" name="email">
-  
-  <label>
-    <textarea name="message"></textarea>
-  </label>
+
+    <input type="text" name="name" id="name" class="form-i" maxlength="30" placeholder="dev">
+    <input type="email" name="email" id="email" class="form-i" placeholder="dev@gmail.com">
+    <textarea name="message" rows="4" maxlength="500" placeholder="Write your message here..."></textarea>
   <!-- your other form fields go here -->
-  <button type="submit">Get in touch</button>
+  <button type="submit" class="btn final-btn">Get in touch</button>
 </form>
 </section>
 </body>

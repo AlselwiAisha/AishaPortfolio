@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -97,7 +97,7 @@ a {
 
 .work-container1:hover,
 .work-container2:hover {
-  border: 2px solid  #a7aeff;
+  border: 2px solid #a7aeff;
   cursor: pointer;
   box-shadow: 5px 30px 56.1276px rgb(55 55 55 / 12%);
 }
@@ -255,7 +255,8 @@ a {
     margin-top: 70px;
     padding-bottom: 4rem;
     border-bottom-left-radius: 5rem;
-    background-image: url(../Images/headerShapesMobile.png), url(../Images/headerBackgroundMobile@2x.png);
+    background-image: url(../Images/headerShapesMobile.png),
+      url(../Images/headerBackgroundMobile@2x.png);
     background-size: cover;
   }
 
@@ -336,7 +337,9 @@ a {
     margin: 0 10px 0 10px;
   }
 
-  .desktop_link { display: none; }
+  .desktop_link {
+    display: none;
+  }
 
   .btn {
     width: 120px;
@@ -413,6 +416,60 @@ a {
     justify-content: space-between;
     align-items: center;
   }
+
+  .contact-me {
+    background-color: #6070ff;
+    border-top-left-radius: 60px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-image: url(../Images/contact-me.png);
+    background-size: 80% 80%;
+    width: 375px;
+    height: 779px;
+  }
+
+  .contact-me-title {
+    margin-top: 103px;
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  .contact-me-summary {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 12px 24px 52px 24px;
+  }
+
+  .form-i {
+    border: 1px solid #cfd8dc;
+    border-radius: 8px;
+    height: 48px;
+    width: 90%;
+    margin: 10px 24px;
+    padding: 15px 38px 15px 16px;
+  }
+
+  textarea {
+    width: 90%;
+    margin: 10px 24px;
+    border: 1px solid #cfd8dc;
+    border-radius: 8px;
+    padding: 15px 38px 15px 16px;
+    font-size: 15px;
+    font-weight: 400px;
+  }
+
+  
+
+  form {
+    text-align: left;
+  }
+  .final-btn {
+    width: 40%;
+    margin: 10px 24px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -420,7 +477,8 @@ a {
     width: 100%;
     height: 100vh;
     margin-top: 70px;
-    background-image: url(../Images/Headerbg.png), url(../Images/headerBackgroun.png);
+    background-image: url(../Images/Headerbg.png),
+      url(../Images/headerBackgroun.png);
   }
 
   .headline-p {
