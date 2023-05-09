@@ -255,7 +255,8 @@ a {
     margin-top: 70px;
     padding-bottom: 4rem;
     border-bottom-left-radius: 5rem;
-    background-image: url(../Images/headerShapesMobile.png),
+    background-image:
+      url(../Images/headerShapesMobile.png),
       url(../Images/headerBackgroundMobile@2x.png);
     background-size: cover;
   }
@@ -418,16 +419,18 @@ a {
   }
 
   .contact-me {
+    width: 375px;
+    padding-bottom: 1rem;
     background-color: #6070ff;
-    border-top-left-radius: 60px;
+    border-top-left-radius: 70px;
     text-align: center;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    background-image: url(../Images/contact-me.png);
-    background-size: 80% 80%;
-    width: 375px;
-    height: 779px;
+    background-image: url(../Images/contactFormShapesMobile.png);
+    background-size: 265px 709.17px;
+    background-position: right;
+    background-repeat: no-repeat;
   }
 
   .contact-me-title {
@@ -439,7 +442,11 @@ a {
   .contact-me-summary {
     font-size: 20px;
     font-weight: 400;
-    margin: 12px 24px 52px 24px;
+    margin: 12px 24px 36px 24px;
+  }
+
+  .contact-form {
+    text-align: left;
   }
 
   .form-i {
@@ -461,11 +468,6 @@ a {
     font-weight: 400px;
   }
 
-  
-
-  form {
-    text-align: left;
-  }
   .final-btn {
     width: 40%;
     margin: 10px 24px;
@@ -477,7 +479,8 @@ a {
     width: 100%;
     height: 100vh;
     margin-top: 70px;
-    background-image: url(../Images/Headerbg.png),
+    background-image:
+      url(../Images/Headerbg.png),
       url(../Images/headerBackgroun.png);
   }
 
