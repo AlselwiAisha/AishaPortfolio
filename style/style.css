@@ -57,14 +57,34 @@ body {
   color: #091e42;
 }
 
+.navbar-links li :hover {
+  font-weight: bolder;
+  font-size: 20px;
+  transition: ease 0.5s;
+}
+
 a {
   text-decoration: inherit;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(30deg);
+  }
 }
 
 .logo {
   text-decoration: none;
   font-size: 18px;
   line-height: 20px;
+}
+
+.logo:hover {
+  animation: 1s ease-out rotate;
 }
 
 .headline-icons {
@@ -106,6 +126,11 @@ a {
   width: 45%;
   height: 45%;
   margin: 0.5%;
+}
+
+.work-container1 img:hover {
+  transition: all ease-in 0.8s;
+  transform: scale(0.9);
 }
 
 .work {
@@ -188,6 +213,8 @@ a {
 .btn:hover {
   background-color: #4053fc;
   color: #fff;
+  transition: ease 1s;
+  width: 31%;
 }
 
 .about-container {
@@ -492,7 +519,7 @@ a {
     border-bottom-left-radius: 70px;
     margin-top: 70px;
     background-image: url(../Images/Headerbg.png);
-    background-size: 1397.4px  721.46px;
+    background-size: 1397.4px 721.46px;
     background-position: right;
     background-repeat: no-repeat;
   }
@@ -546,10 +573,21 @@ a {
     margin: 0.5%;
   }
 
-  .work-container1 img { order: 1; }
-  .work-container2 img { order: 2; }
-  .work-container1 .work { order: 2; }
-  .work-container2 .work { order: 1; }
+  .work-container1 img {
+    order: 1;
+  }
+
+  .work-container2 img {
+    order: 2;
+  }
+
+  .work-container1 .work {
+    order: 2;
+  }
+
+  .work-container2 .work {
+    order: 1;
+  }
 
   .facebook ul {
     margin-left: 0;
