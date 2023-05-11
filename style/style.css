@@ -57,6 +57,12 @@ body {
   color: #091e42;
 }
 
+.navbar-links li :hover{
+  font-weight: bolder;
+  font-size: 20px;
+  transition: ease 0.5s;
+}
+
 a {
   text-decoration: inherit;
 }
@@ -66,7 +72,7 @@ a {
     transform: rotate(0);
   }
   100% {
-    transform: rotate(360deg);
+    transform: rotate(30deg);
   }
 }
 
