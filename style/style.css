@@ -57,7 +57,7 @@ body {
   color: #091e42;
 }
 
-.navbar-links li :hover{
+.navbar-links li :hover {
   font-weight: bolder;
   font-size: 20px;
   transition: ease 0.5s;
@@ -71,6 +71,7 @@ a {
   0% {
     transform: rotate(0);
   }
+
   100% {
     transform: rotate(30deg);
   }
@@ -81,6 +82,7 @@ a {
   font-size: 18px;
   line-height: 20px;
 }
+
 .logo:hover {
   animation: 1s ease-out rotate;
 }
@@ -276,7 +278,8 @@ a {
     margin-top: 70px;
     padding-bottom: 4rem;
     border-bottom-left-radius: 5rem;
-    background-image: url(../Images/headerShapesMobile.png),
+    background-image:
+      url(../Images/headerShapesMobile.png),
       url(../Images/headerBackgroundMobile@2x.png);
     background-size: cover;
   }
@@ -573,12 +576,15 @@ a {
   .work-container1 img {
     order: 1;
   }
+
   .work-container2 img {
     order: 2;
   }
+
   .work-container1 .work {
     order: 2;
   }
+
   .work-container2 .work {
     order: 1;
   }
