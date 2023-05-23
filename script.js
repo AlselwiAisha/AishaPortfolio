@@ -1,4 +1,4 @@
-/*mobile menu*/
+/* mobile menu */
 const menu = document.querySelector('#menu-icon');
 const nav = document.querySelector('.navbar-links');
 
@@ -12,9 +12,9 @@ window.onscroll = () => {
   nav.classList.remove('open-menu');
 };
 
-/*-----------------------popup window-------------------------*/
+/* -----------------------popup window-------------------------*/
 
-const openPopButtons=document.querySelectorAll('.modal-btn');
+const openPopButtons = document.querySelectorAll('.modal-btn');
 const overlay = document.createElement('div');
 overlay.setAttribute('id', 'overlay');
 function createModal(id, title, image, description, skills) {
@@ -22,7 +22,7 @@ function createModal(id, title, image, description, skills) {
   <section class="modal-work">
         <div class="header-wrapper">
             <h2>${title}</h2>
-            <a href="#/" id="crossBtnImg">
+             <a href="#/" id="crossBtnImg">
                 <img src="./Images/Cancel.png" alt="" class="data-close-button">
             </a>
         </div>
@@ -99,7 +99,6 @@ const workCard = {
     skills: ['HTML', 'CSS', 'JavaScript'],
   },
 };
-console.log(workCard)
 function openModal(modal) {
   if (modal == null) return;
   modal.classList.add('active');
@@ -115,7 +114,7 @@ function closeModal(modal) {
 openPopButtons.forEach((button) => {
   button.addEventListener('click', (e) => {
     const name = e.target.id;
-    const prj =  Object.values(workCard)[name-1];
+    const prj = Object.values(workCard)[name - 1];
     const modal = createModal(prj.id, prj.title,
       prj.image, prj.description, prj.skills);
     const element = document.createElement('div');
