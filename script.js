@@ -181,12 +181,12 @@ form.addEventListener('submit', (e) => {
     errMsg.textContent = msgText;
     errMsg.style.display = 'flex';
     errMsg.style.color = 'red';
-    errMsg.style.fontSize="13px";
-    errMsg.style.marginLeft="20px";
-    email.style.border="1px solid red";
+    errMsg.style.fontSize = '13px';
+    errMsg.style.marginLeft = '20px';
+    email.style.border = '1px solid red';
     e.preventDefault();
   } else {
     errMsg.style.display = 'none';
-    email.style.border="1px solid green";
+    email.style.border = '1px solid green';
   }
 });
