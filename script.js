@@ -179,7 +179,8 @@ const msgText = 'Write the email in lowercase, please';
 form.addEventListener('submit', (e) => {
   if (email.value !== email.value.toLowerCase()) {
     errMsg.textContent = msgText;
-    errMsg.style.display = 'block';
+    errMsg.style.display = 'flex';
+    errMsg.style.color = 'white';
     e.preventDefault();
   } else {
     errMsg.style.display = 'none';
