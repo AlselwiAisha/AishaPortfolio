@@ -313,7 +313,9 @@ a {
 }
 
 .skill-button .work-list {
-  margin-bottom: 21px;
+  width: 65%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 hr {
@@ -439,6 +441,7 @@ hr {
 
   .desktop_link {
     display: none;
+     margin-bottom: 0.5rem;
   }
 
   .btn {
@@ -624,6 +627,7 @@ hr {
     width: 95%;
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: 3%;
   }
 
   .header-wrapper h2 {
@@ -875,10 +879,10 @@ hr {
   }
 
   .modal {
-    width: 85%;
+    width: 60%;
     height: 95vh;
-    top: 40%;
-    left: 35%;
+    top: 42%;
+    left: 37%;
   }
 
   .modal-work {
@@ -916,10 +920,8 @@ hr {
   }
 
   .modal-image {
-    width: 100%;
-    height: 50vh;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    aspect-ratio: 2 / 1;
+    margin-left:3%;
   }
 
   .modal-text {
@@ -959,7 +961,9 @@ hr {
     justify-content: space-around;
     align-items: center;
   }
-
+  .work-list li {
+    margin-bottom: 5px;
+  }
   hr {
     margin-bottom: 0;
   }

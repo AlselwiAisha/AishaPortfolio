@@ -19,8 +19,8 @@ const works = [
     title: 'Tonic',
     farme: ['CANOPY', 'Back End Dev', 2015],
     image: './Images/1.png',
-    description_: 'A daily selection of privately personalized reads; no accounts or sign-ups required',
-    description: ` Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required',
+    description1: ` Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                     It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`,
     type: 1,
@@ -31,8 +31,8 @@ const works = [
     title: 'Multi-Post Stories',
     farme: ['FACEBOOK', 'Full Stack Dev', 2015],
     image: './Images/2.png',
-    description_: 'A daily selection of privately personalized reads; no accounts or sign-ups required',
-    description: ` Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required',
+    description1: ` Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`,
     type: 2,
@@ -55,8 +55,8 @@ const works = [
     title: 'Multi-Post Stories',
     farme: ['Uber', 'Lead Developer', 2018],
     image: './Images/4.png',
-    description_: 'A daily selection of privately personalized reads; no accounts or sign-ups required',
-    description: `Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required',
+    description1: `Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                   when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                   It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`,
     type: 2,
