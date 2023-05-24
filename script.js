@@ -170,11 +170,11 @@ openPopButtons.forEach((button) => {
     });
   });
 });
-/*-----------------------------------validate contact form---------------------------------------------*/
-const form=document.querySelector(".contact-form");
-const email = document.querySelector("#email");
-const errMsg=document.querySelector(".err-msg");
-const msgText="Write the email in lowercase, please";
+/* -----------------------validate contact form---------------------------*/
+const form = document.querySelector('.contact-form');
+const email = document.querySelector('#email');
+const errMsg = document.querySelector('.err-msg');
+const msgText = 'Write the email in lowercase, please';
 
 form.addEventListener('submit', (e) => {
   if (email.value !== email.value.toLowerCase()) {
