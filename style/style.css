@@ -682,26 +682,6 @@ a {
     display: none;
   }
 
-  .info-skill-container {
-    display: flex;
-    padding-bottom: 3.938rem;
-  }
-
-  .skill-button-container {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .skill-buttons {
-    margin-top: 16px;
-    display: flex;
-    justify-content: start;
-  }
-
-  .modal-skill-buttons {
-    margin-top: 15px;
-  }
-
   .headline {
     width: 100%;
     height: 100vh;
@@ -880,94 +860,11 @@ a {
     width: 447px;
   }
 
-  .final-btn {
-    width: 142px;
-  }
-
-  #work {
-    background-color: #e5e5e5;
-  }
-
-  .project-section {
-    width: 90%;
-    display: flex;
-    flex-direction: row;
-    margin-top: 8.875rem;
-    background-color: #fff;
-  }
-
-  .figure-desktop {
-    width: 100%;
-  }
-
-  .figure-margin-right {
-    margin-right: 2.875rem;
-    margin-left: 0.75rem;
-    width: 50%;
-  }
-
-  .figure-margin-left {
-    margin-left: 2.875rem;
-  }
-
-  #test {
-    position: fixed;
-    top: 45%;
-    left: 40%;
-    transform: translate(-50%, -50%) scale(0);
-    transition: 200ms ease-in-out;
-    z-index: 10;
-    background-color: #fff;
-    border-radius: 16px;
-  }
-
-  .modal {
-    height: 95%;
-    margin: 60px 16px;
-    padding: 10px 20px;
-  }
-
-  #test.active {
-    transform: translate(-33%, -50%) scale(1);
-  }
-
-  #overlay {
-    position: fixed;
-    z-index: 9;
-    opacity: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    pointer-events: none;
-  }
-
-  #overlay.active {
-    opacity: 1;
-    pointer-events: all;
-  }
-
   .button-wrapper {
     width: 100%;
     display: flex;
     justify-content: space-between;
     margin-top: 1rem;
-  }
-
-  .pop-up-btn {
-    display: flex;
-    margin-top: 0.5rem;
-
-    /* margin: right 0.5em; */
-  }
-
-  .pop-up-btn span {
-    margin-right: 5px;
-  }
-
-  .pop-up-btn img {
-    align-self: center;
   }
 
   .modal-work {
@@ -1008,8 +905,6 @@ a {
   }
 
   .modal-text {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
