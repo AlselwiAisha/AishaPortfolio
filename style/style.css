@@ -441,7 +441,7 @@ hr {
 
   .desktop_link {
     display: none;
-     margin-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
   }
 
   .btn {
@@ -921,7 +921,7 @@ hr {
 
   .modal-image {
     aspect-ratio: 2 / 1;
-    margin-left:3%;
+    margin-left: 3%;
   }
 
   .modal-text {
@@ -961,9 +961,11 @@ hr {
     justify-content: space-around;
     align-items: center;
   }
+
   .work-list li {
     margin-bottom: 5px;
   }
+
   hr {
     margin-bottom: 0;
   }
