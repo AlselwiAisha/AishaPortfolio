@@ -170,3 +170,23 @@ openPopButtons.forEach((button) => {
     });
   });
 });
+/* -----------------------validate contact form---------------------------*/
+const form = document.querySelector('.contact-form');
+const email = document.querySelector('#email');
+const errMsg = document.querySelector('.err-msg');
+const msgText = 'Write the email in lowercase, please';
+
+form.addEventListener('submit', (e) => {
+  if (email.value !== email.value.toLowerCase()) {
+    errMsg.textContent = msgText;
+    errMsg.style.display = 'flex';
+    errMsg.style.color = 'red';
+    errMsg.style.fontSize = '13px';
+    errMsg.style.marginLeft = '20px';
+    email.style.border = '1px solid red';
+    e.preventDefault();
+  } else {
+    errMsg.style.display = 'none';
+    email.style.border = '1px solid green';
+  }
+});
