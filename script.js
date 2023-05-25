@@ -190,3 +190,25 @@ form.addEventListener('submit', (e) => {
     email.style.border = '1px solid green';
   }
 });
+
+/* ---------------------preserve data in the browser----------------------*/
+const userName = document.querySelector('#name');
+const msg = document.querySelector('#message');
+
+form.addEventListener('submit', () => {
+  const formData = {
+    userName: userName.value,
+    email: email.value,
+    msg: msg.value,
+  };
+  localStorage.setItem('formData', JSON.stringify(formData));
+});
+
+window.addEventListener('load', () => {
+  const data = JSON.parse(localStorage.getItem('formData'));
+  if (data) {
+    userName.value = data.userName;
+    email.value = data.email;
+    msg.value = data.msg;
+  }
+});
