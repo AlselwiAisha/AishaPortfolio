@@ -195,12 +195,17 @@ form.addEventListener('submit', (e) => {
 const userName = document.querySelector('#name');
 const msg = document.querySelector('#message');
 
-form.addEventListener('submit', () => {
+function getFormData() {
   const formData = {
     userName: userName.value,
     email: email.value,
     msg: msg.value,
   };
+  return formData;
+}
+
+form.addEventListener('submit', () => {
+  const formData = getFormData();
   localStorage.setItem('formData', JSON.stringify(formData));
 });
 
