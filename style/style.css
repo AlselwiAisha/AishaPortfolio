@@ -323,25 +323,6 @@ hr {
   margin-bottom: 21px;
 }
 
-.errmsgstyle {
-  display: flex;
-  color: red;
-  font-size: 13px;
-  margin-left: 20px;
-}
-
-.emilstyle {
-  border: 1px solid red;
-}
-
-.errmsgstyleremove {
-  display: none;
-}
-
-.emilstylechange {
-  border: 1px solid green;
-}
-
 @media only screen and (min-width: 375px) {
   .navbar-links {
     position: absolute;
