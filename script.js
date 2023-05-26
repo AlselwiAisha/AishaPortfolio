@@ -192,12 +192,12 @@ form.addEventListener('submit', (e) => {
 });
 
 /* ---------------------preserve data in the browser----------------------*/
-const userName = document.querySelector('#name');
+const uName = document.querySelector('#u-name');
 const msg = document.querySelector('#message');
 
 function getFormData() {
   const formData = {
-    userName: userName.value,
+    uName: uName.value,
     email: email.value,
     msg: msg.value,
   };
@@ -212,7 +212,7 @@ form.addEventListener('submit', () => {
 window.addEventListener('load', () => {
   const data = JSON.parse(localStorage.getItem('formData'));
   if (data) {
-    userName.value = data.userName;
+    uName.value = data.uName;
     email.value = data.email;
     msg.value = data.msg;
   }
