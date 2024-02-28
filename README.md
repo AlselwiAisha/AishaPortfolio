@@ -27,7 +27,7 @@
 
 # 📖 [AishaPortfolio] <a name="about-project"></a>
 
-> It is a second introduction project in which we have to learn how to set up linters and working with git flow and working with mobile version.
+ It is a second introduction project in which we have to learn how to set up linters and working with git flow and working with mobile version.
 
 **[AishaPortfolio]** is a second introduction project in Microverse.
 
@@ -36,8 +36,7 @@
 ### Tech Stack <a name="tech-stack"></a>
 
 I'm using mainly html and css for building this project.
-
-> <details>
+ <details>
 
   <summary>Client</summary>
   <ul>
@@ -49,8 +48,6 @@ I'm using mainly html and css for building this project.
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - **[Mobile_First_Approach]**
 - **[CSS_Media_Queries]**
 - **[Flexbox]**
@@ -61,7 +58,7 @@ I'm using mainly html and css for building this project.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> --[Live Demo](https://alselwiaisha.github.io/AishaPortfolio/)
+[Live Demo](https://alselwiaisha.github.io/AishaPortfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
