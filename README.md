@@ -27,9 +27,9 @@
 
 # 📖 [AishaPortfolio] <a name="about-project"></a>
 
- It is a second introduction project in which we have to learn how to set up linters and working with git flow and working with mobile version.
+This is a second introduction project in which we have to learn how to set up linters and working with git flow and working with mobile version.
 
-**[AishaPortfolio]** is a second introduction project in Microverse.
+**Aisha Portfolio** is a second introduction project in Microverse.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -48,9 +48,9 @@ I'm using mainly html and css for building this project.
 
 ### Key Features <a name="key-features"></a>
 
-- **[Mobile_First_Approach]**
-- **[CSS_Media_Queries]**
-- **[Flexbox]**
+- **Mobile First Approach**
+- **Css Media Queries]**
+- **Flexbox**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -133,7 +133,7 @@ Example:
 
 👤 **AishaAlsewi**
 
-- GitHub: [@githubhandle](https://github.com/AlselwiAisha)
+- GitHub: [Aisha Alselwi](https://github.com/AlselwiAisha)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
